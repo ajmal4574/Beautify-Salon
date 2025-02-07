@@ -1,0 +1,245 @@
+:root {
+    --color-primary: #0073ff;
+    --color-white: #e9e9e9;
+    --color-black: #141d28;
+    --color-black-1: #212b38;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+   
+  }
+  
+  .logo {
+    color: black;
+    font-size: 30px;
+    font-family: "Sofia", sans-serif;
+  }
+  
+  .logo span {
+    color: var(--color-primary);
+  }
+  
+  .menu-bar {
+    background-color: #ee8e57;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: relative;
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu-bar ul li {
+    /* width: 120px; */
+    padding: 10px 30px;
+    /* text-align: center; */
+  
+    position: relative;
+  }
+  
+  .menu-bar ul li a {
+    font-size: 20px;
+    color: var(--color-white);
+    text-decoration: none;
+  
+    transition: all 0.3s;
+  }
+  
+  .menu-bar ul li a:hover {
+    color: var(--color-primary);
+  }
+  
+  .fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+  
+  /* dropdown menu style */
+  .dropdown-menu {
+    display: none;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+  }
+  
+  .menu-bar ul li:hover .dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+  }
+  
+  .dropdown-menu-1 {
+    display: none;
+  }
+  
+  .dropdown-menu ul li:hover .dropdown-menu-1 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background-color: var(--color-black);
+  }
+  
+  .hero {
+    height: calc(90vh - 60px);
+    background-image: url(./mainpic.jfif);
+    background-position: center;
+  
+  }
+  #image{
+    background-image: url(./image2.jfif);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+    height: 380px;
+    width: 330px;
+    position: relative;
+    left: 30rem;
+    top: 15px;
+  }
+  #head1{
+    color: white;
+    position: relative;
+    top: 14.5rem;
+    left: 7rem;
+  }
+  #search{
+    position: relative;
+    top: 15rem;
+    left: 6rem;
+    height: 2rem;
+    width: 17rem;
+    background-color:lightblue;
+    border-radius: 20px ;
+  
+  }
+  #mid{
+    height: 200px;
+    width: 100%;
+  
+  }
+  #head2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 20px;
+  }
+
+  
+  /** service section **/
+
+.service {
+    background-color: #f7f7f9;
+    margin-top: 80px;
+    padding: 90px 0;
+    
+    /* margin-left: 7px; */
+}
+
+.service .titlepage {
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.service .titlepage p {
+    color: #0c0202;
+    font-size: 17px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.service_main {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.service_box {
+    text-align: center;
+    width: 16.3%;
+    margin-top: 30px !important;
+    margin-left: 40px;
+    margin-right: 70px;
+    /* border-radius: 50px; */
+}
+
+.service_box i {
+    width: 181px;
+    display: block;
+    height: 181px;
+    border-radius: 200px;
+    
+}
+
+.service_box i img {
+    text-align: center;
+    padding-top: 33%;
+    border-radius: 40px;
+    border-radius:4rem;
+}
+
+.service_box h4 {
+    color: #494949;
+    font-size: 17px;
+    margin-top: 25px;
+    padding: 0;
+    font-weight: 500;
+}
+
+.service_box h4:hover {
+    color: #0f98f8;
+}
+
+.blu_colo i {
+    background-color: #0f98f8
+}
+
+.yell_colo i {
+    background-color: #fed806
+}
+
+.yelldark_colo {
+    margin: 0 50px;
+}
+
+.yelldark_colo i {
+    background-color: #fe7506
+}
+
+.service .read_more {
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+
+/** end service section **/
+
+h2{
+    background-color: #0073ff;
+    color: white;
+}
